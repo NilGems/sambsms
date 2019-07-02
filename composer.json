@@ -1,0 +1,28 @@
+{
+    "name": "laragems/sambsms",
+    "description": "Samb SMS Laravel Plugin",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "illuminate/notifications": "~5.8.0"
+    },
+    "authors": [
+        {
+            "name": "Niladri Shekhar Mondal",
+            "email": "nldrmondal35@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Laragems\\SambSms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laragems\\SambSms\\LaragemsSambsmsProvider"
+            ]
+        }
+    }
+}
